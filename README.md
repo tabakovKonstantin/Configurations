@@ -1,14 +1,21 @@
+<<<<<<< HEAD
 # Configurations
 Pre-tested Configurations for Marlin Firmware 2.1.2.2
+=======
+##Инструкция по сборке direct экструдера:
+https://k3d.tech/ehp/guide/
+>>>>>>> e95e4d0c6b (Add description)
 
-Marlin Firmware is configured using two files:
+##Символические ссылки для удовства сборки проекта:
 
-- `Configuration.h` contains core configuration options like machine geometry.
-- `Configuration_adv.h` contains optional settings for advanced and low level features.
+  - ln -s "/Users/tabakov/Work/3D/Configurations/config/examples/Creality/Ender-3 V2/CrealityV422/CrealityUI/Configuration_adv.h" /Users/tabakov/Work/3D/Marlin/Marlin/Configuration_adv.h
+  - ln -s "/Users/tabakov/Work/3D/Configurations/config/examples/Creality/Ender-3 V2/CrealityV422/CrealityUI/Configuration.h" /Users/tabakov/Work/3D/Marlin/Marlin/Configuration.h
 
-For Graphical LCD these files may also be included:
+##Калиброки:
 
-- `_Bootscreen.h` provides the bitmap for a custom Boot Screen.
-- `_Statusscreen.h` provides bitmaps to customize the Status Screen.
+  - PID экструдера находится в файле pidExtruder.gcode
+  - Разрешения экструдера находится в файле 100mm.gcode
 
-See the [Configuration page](https://marlinfw.org/docs/configuration/configuration.html) for more information about configuration and individual configuration options.
+##Octoprint
+
+  - https://github.com/Jyers/Marlin/wiki/OctoPrint-Settings
