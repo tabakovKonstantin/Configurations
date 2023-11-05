@@ -10,3 +10,7 @@ https://k3d.tech/ehp/guide/
 
   - PID экструдера находится в файле pidExtruder.gcode
   - Разрешения экструдера находится в файле 100mm.gcode
+
+##Octoprint
+
+  - https://github.com/Jyers/Marlin/wiki/OctoPrint-Settings
